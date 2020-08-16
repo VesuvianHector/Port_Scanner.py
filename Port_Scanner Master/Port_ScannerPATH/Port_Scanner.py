@@ -20,7 +20,7 @@ reset = attr(25)
 
 #BANNER
 print (Banner)
-banner = '/home/vesuvian/Port_Scanner/Port_Scanner Banner.txt'
+banner = '/home/YOURUSERNAME/Port_ScannerPATH/Port_Scanner Banner.txt'
 f  = open(banner,"r")
 ascii = "".join(f.readlines())
 print(Banner + ascii)
