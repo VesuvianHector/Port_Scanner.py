@@ -35,6 +35,7 @@ do this to save the modified file
 now open a new terminal and repeat for root usr if on kali by first doing sudo su
 now to check if it was done correctly type "echo $PATH" INTO A NEW TERMINAL WINDOW 
 if somewhere you see /home/YOURUSERNAME/Port_ScannerPATH it is correct
+Finally inside the code on line 23 of Port_Scanner.py change YOURUSERNAME to your username
 now you can luanch Port_Scanner.py just by typing Port_Scanner.py
 
 **I DID NOT CREATE PYTHON NOR ANY OF THE MODULES**
