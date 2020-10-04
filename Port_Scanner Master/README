@@ -18,7 +18,7 @@ RUN "pip3 install socket, colored, datetime"in the terminal to make sure you hav
 
 LUANCH FROM TERMINAL
 To luanch Port_Scanner.py from terminal go to the directory that's called 'Port_Scanner'
-Them use the command "python3 Port-Scanner.py"
+Then use the command "python3 Port-Scanner.py"
 
 $Path(Linux)
 to add Port_Scanner to PATH add the folder labeled 'Port_ScannerPATH'to your home directory
