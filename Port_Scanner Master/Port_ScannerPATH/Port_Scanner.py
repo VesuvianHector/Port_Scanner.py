@@ -12,7 +12,7 @@ from datetime import datetime
 #####################################
 #DEFINITIONS AND UNIVERSAL VARIABLES#
 #####################################
-#Banner&Color
+#Banner&Color Variables
 Banner = fg('#00FF00') + bg('#808080') + attr(5)
 color  = fg('#FF0000') + bg('#808080')
 op     = fg('#00FF00') + bg('#000000') + attr(5)
@@ -23,8 +23,8 @@ reset = attr(25)
 def BANNER():
     print (Banner)
     banner = '/home/vesuvian/Port_ScannerPATH/Port_Scanner Banner.txt'
-    f  = open(banner,"r")
-    ascii = "".join(f.readlines())
+    f      = open(banner,"r")
+    ascii  = "".join(f.readlines())
     print(Banner + ascii)
     print("BY:JTH & Vesuvian Hector")
     print (reset)
