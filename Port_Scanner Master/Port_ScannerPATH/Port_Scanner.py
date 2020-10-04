@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 #Port_Scanner.py
 #THIS IS TO BE USED FOR EDUCATIONAL PURPOSES ONLY
-#JTH or Vesuvian Hector are not responsible for any misuse of this tool.
-
-
 #Modules
 import os
 import socket
@@ -38,10 +35,10 @@ def BANNER():
 def PortScanner(remoteServerIP, Low_port, High_port):
     try:
         for port in range(int(Low_port),int(High_port)):  #65535
-           s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             r = s.connect_ex((remoteServerIP, port))
             if r == 0: 
-                print (op + "Port {}:        Open! :)".format(port) + reset)
+                print (op + "Port {}:        Open!  :)".format(port) + reset)
             else:
                 print (closed + "Port {}:        Closed :(".format(port))
                 
@@ -59,7 +56,7 @@ def PortScanner(remoteServerIP, Low_port, High_port):
         print ("Couldn't connect to target. restarting") 
 #__________________________________________________________________________________#
 
-Banner()#Prints Banner
+BANNER()#Prints Banner
 
 # Ask for input
 print(color)
@@ -81,4 +78,6 @@ PortScanner(remoteServerIP, Low_port, High_port)#PortScanner
 time2 = datetime.now()
 print (time2)                                                   
 total =  time2 - time1
-print ('Scanning Completed in: ', total)
+print ('Scanning Completed in: ', total)#JTH or Vesuvian Hector are not responsible for any misuse of this tool.
+
+
